@@ -40,7 +40,7 @@ Nodemailer se instala usando npm y debe ser ejecutado bajo un servidor creado co
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
 ![taller_automotriz_01](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/427cfb88-f29c-4130-88e8-7513ceffc25f)
-**-----------------------------------------------------------------------------------------------------------------------------------------------------------------**
+**-------------------------------------------------------------------------------------------------------------------------------------------------------------**
 ![taller_automotriz_02](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/47b50366-46b7-4c29-b495-5ed22d0b12a3)
 ![taller_automotriz_03](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/b26b9a82-6bc3-40b1-9f92-63f65e70d115)
 ![taller_automotriz_04](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/c1cbdc0c-e718-413e-882b-ef838e30346b)
