@@ -76,7 +76,7 @@ rutas.post('/enviarCorreo', (solicitud, respuesta) => {
     const CLIENT_ID = "322535734378-6nsifenvamma3ndkfc1pm1g0iaqemnrv.apps.googleusercontent.com";
     const CLIENT_SECRET = "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";
     const REDIRECT_URI = "https://developers.google.com/oauthplayground";
-    const REFRESH_TOKEN = "1//04RMS4H4o1uhtCgYIARAAGAQSNwF-L9Ir0_Dik-0tKM5XcEasikT8bal4ITa9lyAhTpKaMf5Ff7qBqnCFAPFp5yjXRzMW-kTk9Vc";
+    const REFRESH_TOKEN = "1//04-CMv6rCSFVnCgYIARAAGAQSNwF-L9IrC3Trt-EBtO3CsAYoDNlVcRcR46fCm56ZHnGtBJKNKNH3XsFSFBNBU5IFCDEOrVKv3Qg";
     
     // Creamos una instancia de la API de Google
     const oAuth2Client = new google.auth.OAuth2(
@@ -130,9 +130,7 @@ rutas.post('/enviarCorreo', (solicitud, respuesta) => {
         
     // Se ejecuta la función y se maneja por medio de promesas
     enviarEmail()    
-        .then((resultado) => respuesta.status(200).send('El mensaje de correo fue enviado con éxito'))
-        
-        .catch((error) => console.log(error.message));
+        .then((resultado) => respuesta.status(200).render('enviarCorreo', { titulo: 'Enviar correo'}));                
 });
 
 

@@ -1,1 +1,20 @@
-<h1>El mensaje de correo fue enviado con éxito</h1>
+<!DOCTYPE html>
+
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="keywords" content="Taller, Enterprice, Servicio, Equipo, Noticias, Contacto, Nosotros"/>
+            <meta name="description" content="Bienvenidos a la página web del taller Enterprice, donde encontrará un amplio y variada oferta de servicios para el cuidado de su automóvil"/>
+            <link rel="stylesheet" type="text/css" href="css/estilosInicio.css">
+            <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconotools.png"/>
+            <title><%- titulo %></title>
+            <%- include('partials/head') %>
+    </head>
+    <body class="bg-light">
+        <div class="container my-5 py-5">
+            <%- include('partials/mensajeCorreo') %>
+        </div> 
+    </body>
+</html>
