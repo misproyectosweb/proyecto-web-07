@@ -4,7 +4,7 @@
   "description": "Proyecto de página web utilizando Nodejs, Express y otras tecnologías de Javascript",
   "main": "index.js",
   "scripts": {
-    "start": "node src",
+    "start": "node src/index.js",
     "dev": "nodemon src/index.js"
   },
   "keywords": [],
