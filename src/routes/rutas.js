@@ -130,7 +130,9 @@ rutas.post('/enviarCorreo', (solicitud, respuesta) => {
         
     // Se ejecuta la función y se maneja por medio de promesas
     enviarEmail()    
-        .then((resultado) => respuesta.status(200).render('enviarCorreo', { titulo: 'Enviar correo'}));                
+        .then((resultado) => respuesta.status(200).render('enviarCorreo', { titulo: 'Enviar correo'}))
+
+        // .catch((err) => respuesta.status(404).render('correoNoEnviado', { titulo: 'Error'}));
 });
 
 
