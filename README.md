@@ -1,7 +1,7 @@
 # Proyecto Web 07
 Sitio web que muestra información variada de un taller de servicio automotriz
 
-Este sitio web fue creado con:
+Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
 
 - **HTML:** permite crear la estructura del sitio web mediante etiquetas
 - **CSS:** para definir y crear la presentación de del sitio web
@@ -13,8 +13,8 @@ Este sitio web fue creado con:
 Este sitio web fue creado y desarrollado usando la plataforma **Microsoft Visual Studio Code.** Además está adaptado para ejecutarse en dispositivos móviles.
 El archivo **inicio.js** es el que contiene la página de inicio o la página principal del sitio web y consta de cuatro secciones:
 
-- **Un encabezado:** donde se muestra el logotipo de la organización y algunos referencias de contacto
-- **Un menú de navegación:** el cual contiene el menú de navegación del sitio web
+- **Un encabezado:** donde se muestra el logotipo de la organización y algunos datos de referencia para contacto
+- **Un menú de navegación:** el cual contiene el menú de opciones de servicios y otras características de la empresa
 - **Una sección principal:** el cual consta de cinco partes:
     - La primera parte consta de una presentación del negocio a través de un carrusel de imágenes
     - La segunda parte consta de un breve resumen que muestra las cualidades de la empresa
@@ -26,9 +26,9 @@ El archivo **inicio.js** es el que contiene la página de inicio o la página pr
 El menú principal consta de cinco opciones:
 
 - **Inicio:** es la página principal del sitio web.
-- **Quienes somos:** muestra información acerca de la organización, tales como la visión, misión y muestra un resumen de las cualidades del personal que integra la empresa
+- **Quienes somos:** muestra información acerca de la organización, tal como la visión, la misión y muestra además breves datos acerca del personal que trabaja en la empresa y el área de servicio donde labora
 - **Nuestros servicios:** muestra de manera más descriptiva y amplia los servicios que ofrece la empresa
-- **Noticias:** muestra noticias actualizadas del mundo automotriz con el fin de que el usuario conozca las últimas tendencias en servicio automotriz
+- **Noticias:** muestra noticias actualizadas del mundo automotriz con el fin de que el usuario conozca las últimas tendencias en este tipo de servicio
 - **Contáctenos:** presenta información variada que le permitirá al usuario conocer dónde está ubicada la empresa, el horario de servicio, un breve resumen de servicios adicionales y un formulario que le permitirá al usuario realizar sus comentarios acerca del servicio recibido dentro de las instalaciones del taller; así como la posibilidad de concretar citas para servicios al automóvil
 
 Cada archivo que compone cada opción del menú está formado con plantillas creadas con **EJS,** las cuales incluyen, entre otras, las partes repetibles del sitio web y todas estas plantillas están almacenadas en la carpeta partials. Cada página que compone el sitio web son accesadas por medio de rutas definidas utilizando el framework **Express.js**
