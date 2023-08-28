@@ -63,9 +63,7 @@ rutas.post('/enviarCorreo', (solicitud, respuesta) => {
             <li>Teléfono celular: ${solicitud.body.telcelular}</li>
             <li>Marca vehículo: ${solicitud.body.marca}</li>
             <li>Modelo vehículo: ${solicitud.body.modelo}</li>
-            <li>Año vehículo: ${solicitud.body.anio}</li>
-            <li>Fecha cita: ${solicitud.body.fecha_cita}</li>
-            <li>Hora cita: ${solicitud.body.hora_cita}</li>
+            <li>Año vehículo: ${solicitud.body.anio}</li>            
             <li>Tipo de servicio: ${solicitud.body.servicio}</li>            
         </ul>
         <h4>Descripción de la solicitud del servicio:</h4>
@@ -76,7 +74,7 @@ rutas.post('/enviarCorreo', (solicitud, respuesta) => {
     const CLIENT_ID = "322535734378-6nsifenvamma3ndkfc1pm1g0iaqemnrv.apps.googleusercontent.com";
     const CLIENT_SECRET = "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";
     const REDIRECT_URI = "https://developers.google.com/oauthplayground";
-    const REFRESH_TOKEN = "1//04-CMv6rCSFVnCgYIARAAGAQSNwF-L9IrC3Trt-EBtO3CsAYoDNlVcRcR46fCm56ZHnGtBJKNKNH3XsFSFBNBU5IFCDEOrVKv3Qg";
+    const REFRESH_TOKEN = "1//04b7caYFy5R2YCgYIARAAGAQSNwF-L9IryYT0woraArfyyUn3KIhYCUanoKCmMxXZJ-KimOARkCYTzb6v_kCbm02NDtf6Se8xVRs";
     
     // Creamos una instancia de la API de Google
     const oAuth2Client = new google.auth.OAuth2(
@@ -132,7 +130,7 @@ rutas.post('/enviarCorreo', (solicitud, respuesta) => {
     enviarEmail()    
         .then((resultado) => respuesta.status(200).render('enviarCorreo', { titulo: 'Enviar correo'}))
 
-        // .catch((err) => respuesta.status(404).render('correoNoEnviado', { titulo: 'Error'}));
+        // .catch((err) => respuesta.status(400).render('correoNoEnviado', { titulo: 'Error'}));
 });
 
 
