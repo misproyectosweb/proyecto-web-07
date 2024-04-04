@@ -1,50 +1,79 @@
 <!DOCTYPE html>
+
+<!-- Página donde se describe las cualidades de la empresa y su personal -->
+
 <html lang="es">
     <head>
+        <title><%- titulo %></title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/estilosNosotros.css">
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconotools.png"/> 
-        <title><%- titulo %></title>
-        <%- include('partials/head') %>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesUno') %>
+        
+        <!-- Utilizando estilos css personalizados -->
+        <link rel="stylesheet" type="text/css" href="css/estilosNosotros.css">                
     </head>
     <body>
         <header>
-            <div class="container-fluid">
-                <!-- Sección uno: encabezado -->
+            <div class="container-fluid px-0">
+
+                <!-- Encabezado -->
                 <%- include('partials/encabezado') %>
 
-                <!-- Sección dos: menú de navegación -->
-                <%- include('partials/navegacion') %>                                                                
+                <!-- Menú de navegación -->
+                <%- include('partials/navegacion') %>     
+                                                                           
             </div> 
-        </header>        
+        </header>  
+        
+        <!-- Sección principal -->
         <main>
-            <!-- Sección tres: información de los integrantes de la empresa -->        
-            <%- include('partials/t_nosotros') %>
-
-            <%- include('partials/acerca_de') %>
             
-            <%- include('partials/equipo') %>
-        </main>        
-        <footer>
-            <div class="container-fluid d-flex justify-content-center bg-secondary">
-                <!-- Sección cuatro: información general - información de contacto del negocio -->
-                <%- include('partials/piepagina') %>        
+            <!-- Título -->
+            <%- include('partials/nosotrosTitulo') %>
 
-                <!-- Sección cinco: lista de archivos y enlaces a utilizar por el sitio web -->
-                <%- include('partials/footer') %>
+            <!-- Galería de imágenes -->
+            <%- include('partials/nosotrosImagenes') %>
+
+            <!-- Acerca de la empresa -->
+            <%- include('partials/nosotrosEmpresa') %>
+            
+            <!-- Equipo de trabajo -->
+            <%- include('partials/nosotrosEquipo') %>
+
+        </main>   
+
+        <!-- Pie de página -->
+        <footer class="bg-secondary">
+            <div class="container-fluid">                
+
+                <!-- Información de contacto del negocio -->
+                <%- include('partials/piepagina') %>        
+                
+            </div> 
+            
+            <!-- Información derechos de autor -->
+            <%- include('partials/derechos') %> 
+            
         </footer> 
         
         <!-- JavaScript -->
         <script>            
             function ResaltarOpcion(id, color) {
-                document.getElementById(id).style.background = color;
+                document.getElementById(id).style.background = color; 
             }
 
             function noResaltarOpcion(id, color) {
                 document.getElementById(id).style.background = color;
             }
-        </script> 
+        </script>   
+        
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesDos') %>
+
+        <!-- Archivos JavaScript -->
+        <script src="js/tooltips.js" type="text/javascript"></script>
     </body>
 </html>

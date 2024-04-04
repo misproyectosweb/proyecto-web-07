@@ -11,9 +11,6 @@ const nodemailer = require('nodemailer');
 // Incluye soporte para autorización y autenticación con OAuth 2.0, API Keys y tokens JWT
 const { google } = require('googleapis');
 
-// // Llamamos a la librería para configurar el mensaje de alerta
-// const Swal = require('sweetalert2');
-
 // ************************************************************************************************
 // Se colocan las rutas de acceso a las distintas páginas que conforman el sitio web
 // Esta ruta nos redirige a la página de "Inicio"
@@ -44,7 +41,7 @@ rutas.get('/contacto', (solicitud, respuesta) => {
 // ************************************************************************************************
 // Creamos una ruta que reciba los datos del formulario
 // Se utiliza el método post para enviar los datos a la cuenta de correo asignada
-rutas.post('/enviarCorreo', (solicitud, respuesta) => {
+rutas.post('/correoConfirmado', (solicitud, respuesta) => {
     console.log(solicitud.body);
 
     // Obtenemos los datos almacenados para crear la estructura HTML del correo e incorporarlos
@@ -74,10 +71,10 @@ rutas.post('/enviarCorreo', (solicitud, respuesta) => {
     const CLIENT_ID = "322535734378-6nsifenvamma3ndkfc1pm1g0iaqemnrv.apps.googleusercontent.com";
     const CLIENT_SECRET = "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";
     const REDIRECT_URI = "https://developers.google.com/oauthplayground";
-    const REFRESH_TOKEN = "1//04b7caYFy5R2YCgYIARAAGAQSNwF-L9IryYT0woraArfyyUn3KIhYCUanoKCmMxXZJ-KimOARkCYTzb6v_kCbm02NDtf6Se8xVRs";
+    const REFRESH_TOKEN = "1//04YM3_2_ov3zHCgYIARAAGAQSNwF-L9Ir3i9ThZIewYn5ZG_gDnWaN6Fs_28ba8Mx-MBhLtTSvXn78fmKEmcNYl0jwGd6qKT4l9w";
     
     // Creamos una instancia de la API de Google
-    const oAuth2Client = new google.auth.OAuth2(
+    const oAuth2Client = new google.auth.OAuth2 (
         CLIENT_ID, 
         CLIENT_SECRET, 
         REDIRECT_URI
@@ -128,7 +125,7 @@ rutas.post('/enviarCorreo', (solicitud, respuesta) => {
         
     // Se ejecuta la función y se maneja por medio de promesas
     enviarEmail()    
-        .then((resultado) => respuesta.status(200).render('enviarCorreo', { titulo: 'Enviar correo'}))
+        .then((resultado) => respuesta.status(200).render('correoConfirmado', { titulo: 'Confirmación'}))
 
         // .catch((err) => respuesta.status(400).render('correoNoEnviado', { titulo: 'Error'}));
 });

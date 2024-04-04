@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+
+<!-- Página principal del taller de servicio automotriz -->
+
 <html lang="es">
     <head>
         <title><%- titulo %></title>
@@ -6,62 +9,75 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="keywords" content="Taller, Enterprice, Servicio, Equipo, Noticias, Contacto, Nosotros"/>
-        <meta name="description" content="Bienvenidos a la página web del taller Enterprice, donde encontrará una amplia y variada oferta de servicios para el cuidado de su automóvil"/>
+        <meta name="description" content="Bienvenidos al sitio web del taller Enterprice, donde encontrará una amplia y variada oferta de servicios para el cuidado de su automóvil"/>
 
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconotools.png"/>
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesUno') %>
+
+        <!-- Utilizando estilos css personalizados -->
         <link rel="stylesheet" type="text/css" href="css/estilosInicio.css">
-                
-        <%- include('partials/head') %>
     </head>
     <body>
         <header>
-            <div class="container-fluid">
-                <!-- Sección uno: encabezado -->
+            <div class="container-fluid px-0">
+
+                <!-- Encabezado -->
                 <%- include('partials/encabezado') %>
 
-                <!-- Sección dos: menú de navegación -->
-                <%- include('partials/navegacion') %>                                                                
+                <!-- Menú de navegación -->
+                <%- include('partials/navegacion') %>     
+
             </div>            
         </header>
+
         <main>
-            <div class="container-fluid pt-3">            
-                <!-- Sección tres: información general - título página -->
-                <%- include('partials/t_inicio') %>
 
-                <!-- Sección cuatro: información general - carrusel de imagenes -->
-                <%- include('partials/ca_inicio') %>
+            <!-- Título -->
+            <%- include('partials/inicioTitulo') %>
 
-                <!-- Sección cinco: información general - cualidades de la empresa -->
-                <%- include('partials/e_inicio') %>
-                        
-                <!-- Sección seis: información general - resumen servicios ofrecidos -->
-                <%- include('partials/s_inicio') %>
+            <!-- Carrusel de imagenes -->
+            <%- include('partials/inicioCarrusel') %>
 
-                <!-- Sección siete: información general - enlace a formulario para citas -->
-                <%- include('partials/ci_inicio') %>
-                
-                <!-- Sección ocho: información general - sección de noticias o blog -->
-                <%- include('partials/nt_inicio') %>  
-            </div>      
-        </main>        
-        <footer>
-            <div class="container-fluid d-flex justify-content-center bg-secondary">
-                <!-- Sección nueve: información general - información de contacto del negocio -->
+            <!-- Quienes somos -->
+            <%- include('partials/inicioNosotros') %>
+
+            <!-- Servicios de la empresa -->
+            <%- include('partials/inicioServicios') %>
+
+            <!-- Enlace de acceso a formulario para citas -->
+            <%- include('partials/inicioCitas') %>
+
+            <!-- Noticias o artículos -->
+            <%- include('partials/inicioNoticias') %>
+
+        </main>
+
+        <!-- Pie de página -->
+        <footer class="bg-secondary">
+            <div class="container-fluid">                
+
+                <!-- Información de contacto del negocio -->
                 <%- include('partials/piepagina') %>        
-
-                <!-- Sección diez: lista de archivos y enlaces a utilizar por el sitio web -->
-                <%- include('partials/footer') %>            
+                
+            </div> 
+            
+            <!-- Información derechos de autor -->
+            <%- include('partials/derechos') %> 
+            
         </footer> 
         
         <!-- JavaScript -->
         <script>            
             function ResaltarOpcion(id, color) {
-                document.getElementById(id).style.background = color;
+                document.getElementById(id).style.background = color; 
             }
 
             function noResaltarOpcion(id, color) {
                 document.getElementById(id).style.background = color;
             }
-        </script>     
+        </script>   
+        
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesDos') %>
     </body>
 </html>

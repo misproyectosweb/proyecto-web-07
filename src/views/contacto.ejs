@@ -1,67 +1,87 @@
 <!DOCTYPE html>
+
+<!-- Página donde se le permite al usuario registrar sus datos y concretar un servicio para el automóvil -->
+
 <html lang="es">
     <head>
         <title><%- titulo %></title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">               
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconotools.png"/> 
-        <link rel="stylesheet" type="text/css" href="css/estilosContacto.css">
-        
-        <%- include('partials/head') %>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesUno') %>
+
+        <link rel="stylesheet" type="text/css" href="css/estilosContacto.css">                
     </head>
     <body>
         <header>
-            <div class="container-fluid">
-                <!-- Sección uno: encabezado -->
+            <div class="container-fluid px-0">
+
+                <!-- Encabezado -->
                 <%- include('partials/encabezado') %>
 
-                <!-- Sección dos: menú de navegación -->
-                <%- include('partials/navegacion') %>                                                                
+                <!-- Menú de navegación -->
+                <%- include('partials/navegacion') %>     
+                                                                           
             </div> 
         </header>
+
+        <!-- Sección principal -->
         <main>
-            <!-- Sección tres: información de contacto con la empresa -->
-            <%- include('partials/t_contacto') %>
 
-            <!-- Sección cuatro: mapa de ubicación del negocio -->
-            <%- include('partials/p_contacto') %>
-                
-            <div class="container-fluid bg-light pb-5">
+            <!-- Título -->
+            <%- include('partials/contactoTitulo') %>
+
+            <%- include('partials/contactoUbicacion') %>
+
+            <div class="container-fluid bg-light p-3 border-top border-dark-50">
                 <div class="row">
-
-                    <!-- Sección cinco: formulario de contacto -->
-                    <%- include('partials/formContacto') %>
                     
-                    <div class="col-md-6 d-flex flex-row justify-content-between">
-                        
-                        <!-- Sección seis: horario de servicio -->
-                        <%- include('partials/h_contacto') %>
-                        
-                        <!-- Sección siete: lista de servicios -->
-                        <%- include('partials/s_contacto') %>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <div class="container-fluid d-flex justify-content-center bg-secondary">
-                <!-- Sección cuatro: información general - información de contacto del negocio -->
-                <%- include('partials/piepagina') %>        
+                    <!-- Formulario de contacto -->
+                    <%- include('partials/contactoFormulario') %>                    
+                    
+                    <!-- Horario de servicios -->
+                    <%- include('partials/contactoHorario') %>
 
-                <!-- Sección cinco: lista de archivos y enlaces a utilizar por el sitio web -->
-                <%- include('partials/footer') %>
-        </footer>
+                </div>
+
+                <!-- Lista de servicios -->
+                <div class="row border-dark-50 border-top"> 
+                    
+                    <!-- Otros servicios -->
+                    <%- include('partials/contactoOtrosServicios') %>
+                    
+                </div>
+            </div>                        
+        </main>
+
+        <!-- Pie de página -->
+        <footer class="bg-secondary">
+            <div class="container-fluid">                
+
+                <!-- Información de contacto del negocio -->
+                <%- include('partials/piepagina') %>        
+                
+            </div> 
+            
+            <!-- Información derechos de autor -->
+            <%- include('partials/derechos') %> 
+            
+        </footer>   
 
         <!-- JavaScript -->
         <script>            
             function ResaltarOpcion(id, color) {
-                document.getElementById(id).style.background = color;
+                document.getElementById(id).style.background = color; 
             }
 
             function noResaltarOpcion(id, color) {
                 document.getElementById(id).style.background = color;
             }
-        </script> 
+        </script>  
+                        
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesDos') %> 
     </body>
 </html>

@@ -1,48 +1,77 @@
 <!DOCTYPE html>
+
+<!-- Página donde se muestran y describen los servicios que ofrece el taller automotriz -->
+
 <html lang="es">
     <head>
+        <title><%- titulo %></title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/estilosServicios.css">
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconotools.png"/> 
-        <title><%- titulo %></title>
-        <%- include('partials/head') %>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesUno') %>
+
+        <!-- Utilizando estilos css personalizados -->
+        <link rel="stylesheet" type="text/css" href="css/estilosServicios.css">        
     </head>
     <body>
         <header>
-            <div class="container-fluid">
-                <!-- Sección uno: encabezado -->
+            <div class="container-fluid px-0">
+
+                <!-- Encabezado -->
                 <%- include('partials/encabezado') %>
 
-                <!-- Sección dos: menú de navegación -->
-                <%- include('partials/navegacion') %>                                                                
+                <!-- Menú de navegación -->
+                <%- include('partials/navegacion') %>     
+                                                                           
             </div> 
-        </header>        
-        <main>
-            <!-- Sección tres: información de los servicios que ofrece la empresa -->
-            <%- include('partials/t_servicios') %>
-        
-            <%- include('partials/p_servicios') %>
-        </main>        
-        <footer>
-            <div class="container-fluid d-flex justify-content-center bg-secondary">
-                <!-- Sección cuatro: información general - información de contacto del negocio -->
-                <%- include('partials/piepagina') %>        
+        </header>  
 
-                <!-- Sección cinco: lista de archivos y enlaces a utilizar por el sitio web -->
-                <%- include('partials/footer') %>
+        <!-- Sección principal -->
+        <main>
+
+            <!-- Título -->
+            <%- include('partials/serviciosTitulo') %>
+
+            <div class="container-fluid">
+
+                <!-- Información de los servicios -->
+                <%- include('partials/serviciosUno') %>
+                <%- include('partials/serviciosDos') %>
+                <%- include('partials/serviciosTres') %>
+                <%- include('partials/serviciosCuatro') %>
+                <%- include('partials/serviciosCinco') %>
+                <%- include('partials/serviciosSeis') %>
+            </div>
+        </main>  
+
+        <!-- Pie de página -->
+        <footer class="bg-secondary">
+            <div class="container-fluid">                
+
+                <!-- Información de contacto del negocio -->
+                <%- include('partials/piepagina') %>        
+                
+            </div> 
+            
+            <!-- Información derechos de autor -->
+            <%- include('partials/derechos') %> 
+            
         </footer> 
         
         <!-- JavaScript -->
         <script>            
             function ResaltarOpcion(id, color) {
-                document.getElementById(id).style.background = color;
+                document.getElementById(id).style.background = color; 
             }
 
             function noResaltarOpcion(id, color) {
                 document.getElementById(id).style.background = color;
             }
-        </script> 
+        </script>   
+        
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesDos') %>
     </body>
 </html>

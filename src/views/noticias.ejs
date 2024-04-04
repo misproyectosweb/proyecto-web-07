@@ -1,64 +1,84 @@
 <!DOCTYPE html>
+
+<!-- Página donde se muestran varias noticias relacionadas con el mundo automotriz -->
+
 <html lang="es">
     <head>
+        <title><%- titulo %></title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="css/estilosNoticias.css">
-        <link rel="shortcut icon" type="image/x-icon" href="imagenes/iconotools.png"/> 
-        <title><%- titulo %></title>
-        <%- include('partials/head') %>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesUno') %>
+
+        <!-- Utilizando estilos css personalizados -->
+        <link rel="stylesheet" type="text/css" href="css/estilosNoticias.css">        
+                                        
     </head>
     <body>
         <header>
-            <div class="container-fluid">
-                <!-- Sección uno: encabezado -->
+            <div class="container-fluid px-0">
+
+                <!-- Encabezado -->
                 <%- include('partials/encabezado') %>
 
-                <!-- Sección dos: menú de navegación -->
-                <%- include('partials/navegacion') %>                                                                
+                <!-- Menú de navegación -->
+                <%- include('partials/navegacion') %>     
+                                                                           
             </div> 
-        </header>        
+        </header>    
+        
+        <!-- Sección principal -->
         <main>
-            <div class="container-fluid"></div>
-                <!-- Sección tres: información de las noticias -->
-                <%- include('partials/t_noticias') %>
 
-                <%- include('partials/p_noticias') %>
+            <!-- Título -->
+            <%- include('partials/noticiasTitulo') %>
+
+            <!-- Sección de noticias o publicaciones -->
+            <div class="container-fluid">
+                <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto">
+                    <div class="card-deck mx-auto">
+
+                        <!-- Noticias o artículos -->
+                        <%- include('partials/noticiasArticuloUno') %>
+                        <%- include('partials/noticiasArticuloDos') %>
+                        <%- include('partials/noticiasArticuloTres') %>
+
+                    </div>
+                </div>
             </div>
         </main>
-        <footer>
-            <div class="container-fluid d-flex justify-content-center bg-secondary">
-                <!-- Sección cuatro: información general - información de contacto del negocio -->
-                <%- include('partials/piepagina') %>        
 
-                <!-- Sección cinco: lista de archivos y enlaces a utilizar por el sitio web -->
-                <%- include('partials/footer') %>
-        </footer>  
+        <!-- Pie de página -->
+        <footer class="bg-secondary">
+            <div class="container-fluid">                
+
+                <!-- Información de contacto del negocio -->
+                <%- include('partials/piepagina') %>        
+                
+            </div> 
+            
+            <!-- Información derechos de autor -->
+            <%- include('partials/derechos') %> 
+            
+        </footer>   
         
         <!-- JavaScript -->
         <script>            
             function ResaltarOpcion(id, color) {
-                document.getElementById(id).style.background = color;
+                document.getElementById(id).style.background = color; 
             }
 
             function noResaltarOpcion(id, color) {
                 document.getElementById(id).style.background = color;
             }
-        </script>   
+        </script>  
+                        
+        <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
+        <%- include('partials/listaEnlacesDos') %> 
         
-        <script>
-            $(document).ready(function()
-            {
-                $(function () 
-                {
-                    $(".btnTexto").bind("click", function () 
-                    {
-                        $(this).text($(this).text() === "Ocultar artículo" ? "Mostrar artículo" : "Ocultar artículo");
-                        $(this).prev().slideToggle();
-                    });
-                });
-            });
-        </script>
+        <!-- Archivos JavaScript -->
+        <script src="js/btnNoticias.js" type="text/javascript"></script>
     </body>
 </html>
