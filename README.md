@@ -39,45 +39,59 @@ Nodemailer se instala usando **npm** y debe ser ejecutado bajo un servidor cread
 
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
-![taller_automotriz_01](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/427cfb88-f29c-4130-88e8-7513ceffc25f)
+![01  inicio_1](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/cbc33530-fab2-478c-9229-e59dab02348c)
 **==========================================================================**
-![taller_automotriz_02](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/47b50366-46b7-4c29-b495-5ed22d0b12a3)
+![01  inicio_2](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/0d061f27-5ecb-40ca-b47e-763c7abf1a0a)
 **==========================================================================**
-![taller_automotriz_03](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/b26b9a82-6bc3-40b1-9f92-63f65e70d115)
+![01  inicio_3](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/6cf9419a-f857-4973-872b-118100792f7d)
 **==========================================================================**
-![taller_automotriz_04](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/c1cbdc0c-e718-413e-882b-ef838e30346b)
+![01  inicio_4](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/b58596ec-8e33-4f08-8d06-2b8f0b84914f)
 **==========================================================================**
-![taller_automotriz_05](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/53522a36-ac6d-41af-be87-d2948ad2849a)
+![01  inicio_5](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/52d40767-278c-4007-8cb8-e43abee20aed)
 **==========================================================================**
-![taller_automotriz_06](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/029948e4-c63f-42c0-8bb1-cb7e25ddc4ce)
+![01  inicio_6](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/62516025-7ef1-4231-a768-cddc2dd5d770)
 **==========================================================================**
-![taller_automotriz_07](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/c6213a6d-c50b-4018-9b12-dd0a6133dcb4)
+![01  inicio_7](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/00c944f3-d3a2-47d8-9ff3-a483c3426703)
 **==========================================================================**
-![taller_automotriz_08](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/047f5ba3-2b40-4f8a-b30c-bb27956df2b0)
+![02  nosotros_1](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/788427e7-b26b-4494-b1ac-ad91327c7aeb)
 **==========================================================================**
-![taller_automotriz_09](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/ed0bc696-5db0-4d4b-81df-1dcecac58a1d)
+![02  nosotros_2](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/afb5b5c5-5c93-4e51-9921-962f64798e16)
 **==========================================================================**
-![taller_automotriz_10](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/81085070-8954-4211-ba09-32a41eb06802)
+![02  nosotros_3](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/fb6525b9-8b56-40ab-8822-6b86bbf77fd7)
 **==========================================================================**
-![taller_automotriz_11](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/c31bed5e-72b6-4606-8c8f-506e96f07cec)
+![02  nosotros_4](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/f7cdc059-ab24-4b94-821e-4a382de88d28)
 **==========================================================================**
-![taller_automotriz_12](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/e52e3e0b-810e-44d9-9d2c-52b587e2bb6f)
+![03  servicios_1](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/4de55df7-5ace-40e9-bf1f-cbcec924080a)
 **==========================================================================**
-![taller_automotriz_13](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/7707001a-3585-44b9-be21-1f8de1f2e301)
+![03  servicios_2](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/9269b702-3c01-40fc-8e23-9689e8cfdd8e)
 **==========================================================================**
-![taller_automotriz_14](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/bea8a537-1f74-4614-a34d-01ee696a81da)
+![03  servicios_3](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/e6eabc12-6495-487a-a39d-3bcf47c518e5)
 **==========================================================================**
-![taller_automotriz_15](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/fa8b8ff4-bcff-4fa9-a11f-3753959646c3)
+![03  servicios_4](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/e1240878-d055-435a-a44b-5c5b342c3fc0)
 **==========================================================================**
-![taller_automotriz_17](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/1ac2ee29-1b29-4ea3-9911-231fb3314781)
+![03  servicios_5](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/ffd1403b-2df3-45f8-a79c-d72e37e214ce)
 **==========================================================================**
-![taller_automotriz_18](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/52e12d53-6785-4584-9bcf-0c4b42ab4c90)
+![04  noticias_1](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/95a345b4-28c2-41d4-bd95-8df7051cff5d)
 **==========================================================================**
-![taller_automotriz_19](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/b66f5d15-5fd5-4483-8c69-6272912bc53f)
+![04  noticias_2](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/18559f13-ea1a-4e7d-9f7f-47c1cd045136)
 **==========================================================================**
-![taller_automotriz_20](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/80dcf370-6045-4bd5-9e31-ff662fcd66bc)
+![04  noticias_3](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/a7229ef7-893f-4340-a374-02e1011691e1)
 **==========================================================================**
-![taller_automotriz_23](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/1a72eb5c-3897-453a-b62b-56cdcb86c2fb)
+![04  noticias_4](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/1a1ebabb-6957-4e5a-a649-a6bd81d5ca64)
 **==========================================================================**
-![taller_automotriz_22](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/5912db62-6287-437a-9a47-d67e68e817b1)
-
+![05  contacto_1](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/87eabe30-b820-41db-a9be-208a88a68a9c)
+**==========================================================================**
+![05  contacto_2](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/7463cd1c-dbaf-4b2d-9f4f-e807db860809)
+**==========================================================================**
+![05  contacto_3](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/7fc2cfed-7187-4da1-b209-1b3b7158e53b)
+**==========================================================================**
+![05  contacto_4](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/e67ad00a-0015-4f60-8a58-c223a87e8e68)
+**==========================================================================**
+![05  contacto_5](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/0a4dbc1a-2808-49e3-bdd5-de2f5c42c0ea)
+**==========================================================================**
+![05  contacto_6](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/68de4820-8d41-4fff-a321-64874c41be34)
+**==========================================================================**
+![05  contacto_7](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/7d19e6b7-6104-4106-a0eb-22a95abd1ca1)
+**==========================================================================**
+![05  contacto_8](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/dbadd577-b69b-42a1-a8ab-b813bd7ead8c)
+**==========================================================================**
