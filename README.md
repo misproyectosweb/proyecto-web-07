@@ -91,7 +91,9 @@ A continuación se presentan algunas imágenes del sitio web brevemente descrito
 **==========================================================================**
 ![05  contacto_6](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/68de4820-8d41-4fff-a321-64874c41be34)
 **==========================================================================**
-![05  contacto_7](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/7d19e6b7-6104-4106-a0eb-22a95abd1ca1)
+![05  contacto_10](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/0348542d-54bb-4e0f-82a0-8fdc024bab1c)
 **==========================================================================**
-![05  contacto_8](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/dbadd577-b69b-42a1-a8ab-b813bd7ead8c)
+![05  contacto_11](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/1962957a-f683-48fc-9263-792f18b0a40e)
+**==========================================================================**
+![05  contacto_12](https://github.com/misproyectosweb/proyecto-web-07/assets/98922137/159e1b3f-4810-4164-a082-83375df52591)
 **==========================================================================**
