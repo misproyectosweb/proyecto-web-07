@@ -69,16 +69,18 @@ A continuación se presentan algunas imágenes del sitio web brevemente descrito
 **==========================================================================**
 ![04  noticias_03](https://github.com/user-attachments/assets/dea13fc6-5a39-4894-ba63-894c1096896d)
 **==========================================================================**
-![05  contacto_01](https://github.com/user-attachments/assets/33f07a27-1117-449a-a844-581db20527f5)
+![05  contacto_01](https://github.com/user-attachments/assets/21df9cf7-b56e-49a7-83c0-89912bbfde78)
 **==========================================================================**
-![05  contacto_02](https://github.com/user-attachments/assets/1e5a22e2-e6bb-48b7-958d-4b7291c6e05a)
+![05  contacto_02](https://github.com/user-attachments/assets/dd645ed4-fa2a-4fb2-b032-5828d512a048)
 **==========================================================================**
-![05  contacto_03](https://github.com/user-attachments/assets/def9a9e1-f04d-41c8-abf9-078cd56db042)
+![05  contacto_03](https://github.com/user-attachments/assets/085ff172-d594-4f74-8348-138a4524f743)
 **==========================================================================**
-![05  contacto_05](https://github.com/user-attachments/assets/97548039-a487-4509-88da-958d9506d1a0)
+![05  contacto_04](https://github.com/user-attachments/assets/d6507bbe-37e5-4a72-bfa8-5022c701921d)
 **==========================================================================**
-![05  contacto_06](https://github.com/user-attachments/assets/f36b3cb1-c1a0-4b2f-a533-1ffcefe8427f)
+![05  contacto_05](https://github.com/user-attachments/assets/70ab9284-4aa0-4299-885d-d776dc3683c1)
 **==========================================================================**
-![05  contacto_07](https://github.com/user-attachments/assets/097e7d15-5afd-4130-95c6-8b52542c7cd3)
+![05  contacto_08](https://github.com/user-attachments/assets/33a0a5de-84ef-462f-a6af-db80631e2917)
 **==========================================================================**
-![05  contacto_08](https://github.com/user-attachments/assets/5429ef13-3dae-48de-96d3-f1859c1c8546)
+![05  contacto_09](https://github.com/user-attachments/assets/dd5bf5b0-23c6-45c9-889a-24e063a1c752)
+**==========================================================================**
+![05  contacto_10](https://github.com/user-attachments/assets/8b875cd0-3592-42a0-93bf-b188e0dbcd66)
