@@ -39,6 +39,8 @@ Nodemailer se instala usando **npm** y debe ser ejecutado bajo un servidor cread
 
 A continuación se presentan algunas imágenes del sitio web brevemente descrito anteriormente:
 
+![01  inicio_00](https://github.com/user-attachments/assets/332bb4ea-7cd0-47ef-8d84-77a8afdc2837)
+**==========================================================================**
 ![01  inicio_01](https://github.com/user-attachments/assets/4531183a-ca2a-4036-93c7-987fc7846955)
 **==========================================================================**
 ![01  inicio_02](https://github.com/user-attachments/assets/47835699-d508-40b7-9b48-911352a28cd6)
