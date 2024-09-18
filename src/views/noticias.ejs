@@ -13,12 +13,11 @@
         <%- include('partials/listaEnlacesUno') %>
 
         <!-- Utilizando estilos css personalizados -->
-        <link rel="stylesheet" type="text/css" href="css/estilosNoticias.css">        
-                                        
+        <link rel="stylesheet" type="text/css" href="css/estilosNoticias.css">                                                
     </head>
     <body>
         <header>
-            <div class="container-fluid px-0">
+            <div class="container-fluid">
 
                 <!-- Encabezado -->
                 <%- include('partials/encabezado') %>
@@ -37,32 +36,40 @@
 
             <!-- Sección de noticias o publicaciones -->
             <div class="container-fluid">
-                <div class="row col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 mx-auto">
-                    <div class="card-deck mx-auto">
+                <div class="row justify-content-around">
 
-                        <!-- Noticias o artículos -->
-                        <%- include('partials/noticiasArticuloUno') %>
-                        <%- include('partials/noticiasArticuloDos') %>
-                        <%- include('partials/noticiasArticuloTres') %>
+                  <!-- Noticias o artículos -->
+                  <%- include('partials/noticiasArticuloUno') %>
+                  <%- include('partials/noticiasArticuloDos') %>
+                  <%- include('partials/noticiasArticuloTres') %>
 
-                    </div>
                 </div>
             </div>
         </main>
 
         <!-- Pie de página -->
         <footer class="bg-secondary">
-            <div class="container-fluid">                
+            <div class="container-fluid">
+                <div class="row p-5">
 
-                <!-- Información de contacto del negocio -->
-                <%- include('partials/piepagina') %>        
-                
+                    <!-- Enlaces a las páginas del sitio web -->
+                    <%- include('partials/footerPaginas') %>
+
+                    <!-- Información de contacto por redes sociales -->
+                    <%- include('partials/footerRedes') %>
+
+                    <!-- Información servicios de la empresa -->
+                    <%- include('partials/footerServicios') %>
+
+                    <!-- Información de contacto de la empresa -->
+                    <%- include('partials/footerContacto') %>
+                </div>                                
             </div> 
             
             <!-- Información derechos de autor -->
-            <%- include('partials/derechos') %> 
+            <%- include('partials/footerCopyright') %> 
             
-        </footer>   
+        </footer> 
         
         <!-- JavaScript -->
         <script>            
