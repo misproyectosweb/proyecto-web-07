@@ -17,7 +17,7 @@
     </head>
     <body>
         <header>
-            <div class="container-fluid px-0">
+            <div class="container-fluid">
 
                 <!-- Encabezado -->
                 <%- include('partials/encabezado') %>
@@ -34,9 +34,8 @@
             <!-- Título -->
             <%- include('partials/serviciosTitulo') %>
 
-            <div class="container-fluid">
-
-                <!-- Información de los servicios -->
+            <!-- Descripción de los servicios que ofrece la empresa -->
+            <div class="container-fluid">                
                 <%- include('partials/serviciosUno') %>
                 <%- include('partials/serviciosDos') %>
                 <%- include('partials/serviciosTres') %>
@@ -48,15 +47,25 @@
 
         <!-- Pie de página -->
         <footer class="bg-secondary">
-            <div class="container-fluid">                
+            <div class="container-fluid">
+                <div class="row p-5">
 
-                <!-- Información de contacto del negocio -->
-                <%- include('partials/piepagina') %>        
-                
+                    <!-- Enlaces a las páginas del sitio web -->
+                    <%- include('partials/footerPaginas') %>
+
+                    <!-- Información de contacto por redes sociales -->
+                    <%- include('partials/footerRedes') %>
+
+                    <!-- Información servicios de la empresa -->
+                    <%- include('partials/footerServicios') %>
+
+                    <!-- Información de contacto de la empresa -->
+                    <%- include('partials/footerContacto') %>
+                </div>                                
             </div> 
             
             <!-- Información derechos de autor -->
-            <%- include('partials/derechos') %> 
+            <%- include('partials/footerCopyright') %> 
             
         </footer> 
         
