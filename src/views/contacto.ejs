@@ -12,11 +12,12 @@
         <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
         <%- include('partials/listaEnlacesUno') %>
 
+        <!-- Utilizando estilos css personalizados -->
         <link rel="stylesheet" type="text/css" href="css/estilosContacto.css">                
     </head>
     <body>
         <header>
-            <div class="container-fluid px-0">
+            <div class="container-fluid">
 
                 <!-- Encabezado -->
                 <%- include('partials/encabezado') %>
@@ -46,29 +47,35 @@
 
                 </div>
 
-                <!-- Lista de servicios -->
-                <div class="row border-dark-50 border-top"> 
-                    
-                    <!-- Otros servicios -->
-                    <%- include('partials/contactoOtrosServicios') %>
-                    
-                </div>
+                <!-- Lista de servicios -->                                                        
+                <%- include('partials/contactoOtrosServicios') %>
+                                    
             </div>                        
         </main>
 
         <!-- Pie de página -->
         <footer class="bg-secondary">
-            <div class="container-fluid">                
+            <div class="container-fluid">
+                <div class="row p-5">
 
-                <!-- Información de contacto del negocio -->
-                <%- include('partials/piepagina') %>        
-                
+                    <!-- Enlaces a las páginas del sitio web -->
+                    <%- include('partials/footerPaginas') %>
+
+                    <!-- Información de contacto por redes sociales -->
+                    <%- include('partials/footerRedes') %>
+
+                    <!-- Información servicios de la empresa -->
+                    <%- include('partials/footerServicios') %>
+
+                    <!-- Información de contacto de la empresa -->
+                    <%- include('partials/footerContacto') %>
+                </div>                                
             </div> 
             
             <!-- Información derechos de autor -->
-            <%- include('partials/derechos') %> 
+            <%- include('partials/footerCopyright') %> 
             
-        </footer>   
+        </footer> 
 
         <!-- JavaScript -->
         <script>            
@@ -79,9 +86,9 @@
             function noResaltarOpcion(id, color) {
                 document.getElementById(id).style.background = color;
             }
-        </script>  
-                        
+        </script>   
+        
         <!-- Lista de archivos y enlaces a utilizar por el sitio web -->
-        <%- include('partials/listaEnlacesDos') %> 
+        <%- include('partials/listaEnlacesDos') %>
     </body>
 </html>

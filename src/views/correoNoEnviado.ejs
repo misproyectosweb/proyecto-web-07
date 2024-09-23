@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 
+<!-- Mensaje para indicar al usuario que la solicitud de cita de servicio fue erróneo -->
+
 <html lang="es">
     <head>
         <title><%- titulo %></title>
@@ -11,15 +13,15 @@
          <%- include('partials/listaEnlacesUno') %>
 
         <!-- Utilizando estilos css personalizados -->
-        <link rel="stylesheet" type="text/css" href="css/msjCorreo.css">    
+        <link rel="stylesheet" type="text/css" href="css/msjCorreo.css">
     </head>
 
     <!-- Sección principal -->
-    <body class="fondoCorreo">
-        <div class="colorFondo">
+    <body class="fondoCorreo vh-100">
+        <div class="colorFondo vh-100">
             
             <!-- Estructura del mensaje de confirmación -->
-            <%- include('partials/mensajeErroneo') %>
+            <%- include('partials/mensajeCorreo') %>
             
         </div>
         
