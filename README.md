@@ -1,4 +1,5 @@
-# Proyecto Web 07
+# Proyecto Web 07: taller de servicio automotriz
+
 Sitio web que muestra información variada de un taller de servicio automotriz
 
 Sitio web creado con las siguientes herramientas a nivel de front-end y back-end:
